@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.img {
+    width: 97%; /* Certifique-se de que o contêiner ocupa toda a largura disponível */
+    order: 2; /* Ordem padrão para xs */
+}
+/* Começo da Propaganda Start */
+.texto {
+    padding: 80px;
+    order: 1; /* Ordem padrão para xs */
+}
+.sub-titulo {
+    text-align: left;
+    margin-bottom: 20px;
+    color: rgb(56, 56, 56);
+}
+.titulo {
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 37px;
+    color: rgb(95, 95, 95);
+    margin-bottom: 20px;
+}
+.comentario {
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(56, 56, 56);
+}
+/* Propaganda END Tela MD */
+.botoes {
+   display: flex;
+   justify-content: left;
+}
+
+@media(max-width: 1300px){
+    .texto {
+        padding:30px
+    }
+    .titulo {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 960px) {
+    .texto {
+        order: 2; /* Ordem para md e acima */
+    }
+    .img {
+        order: 1; /* Ordem para md e acima */
+    }
+    .sub-titulo {
+        display: none; /* Mostrar o sub-título em telas md */
+    }
+}
+
+
+@media (max-width: 730px) { /* Estilo específico para telas md (960px e acima) */
+    .sub-titulo {
+        display: none; /* Mostrar o sub-título em telas md */
+    }
+    .sub-titulo {
+        text-align: left;
+        margin-bottom: 20px;
+        color: rgb(56, 56, 56);
+    }
+    .titulo {
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 23px;
+        color: rgb(95, 95, 95);
+        margin-bottom: 20px;
+    }
+    .comentario {
+        text-align: center;
+        font-size: 18px;
+        color: rgb(56, 56, 56);
+    }
+    /* Propaganda END Tela MD */
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+.geral {
+    border: 1px solid red;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.geral img {
+    height: 400px;
+    width: 100%;
+}
+.textoEstudo {
+    font-size: 180px;
+    position: absolute;
+    color: aliceblue;
+    top: 110px;
+}
+@media(max-width: 1200px){
+    .textoEstudo {
+        font-size: 50px;
+        position: absolute;
+        color: rgb(247, 0, 255);
+        top: 160px;
+    }
+}
+@media(max-width: 900px){
+    .textoEstudo {
+        font-size: 50px;
+        position: absolute;
+        color: rgb(251, 255, 0);
+        top: 160px;
+    }
+}
+@media(max-width: 700px){
+    .textoEstudo {
+        font-size: 50px;
+        position: absolute;
+        color: rgb(72, 255, 0);
+        top: 160px;
+    }
+}
+@media(max-width: 500px){
+    .textoEstudo {
+        font-size: 50px;
+        position: absolute;
+        color: rgb(0, 26, 255);
+        top: 160px;
+    }
+}
+
